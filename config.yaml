@@ -1,0 +1,205 @@
+baseURL: https://aafu.pages.dev/
+languageCode: en-us
+build:
+  writeStats: true
+params:
+  title: Gene's samples
+  author: Gene Hartsell
+  description: Website title
+  copyright: |+
+    Copyright &copy; 2025 Gene Hartsell
+  theme:
+    mainTheme: dark
+    showAttribute: true
+    singlePage: false
+  favicons:
+    use: true
+    metas: |2-
+              <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+              <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+              <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+              <link rel="manifest" href="site.webmanifest">
+              <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">
+              <link rel="shortcut icon" href="favicon.ico">
+
+  profile:
+    name: "Documentation Samples"
+    photo: profile.png
+  social:
+    title: Links
+    list:
+      - icon: fab fa-github
+        url: "https://github.com/ghartsel"
+        title: GitHub
+  showInAccordion:
+    - item: aboutme
+      expand: true
+    - item: publication
+    - item: education
+    - item: project
+  aboutme:
+    title: About
+    icon: fas fa-user
+    description: |
+      I've had the pleasure of writing complex developer and engineering documentation for great companies across a broad domain spectrum. These projects afforded me the opportunity to immerse myself in new technologies and engage with the latest documentation methodologies and tools.
+
+      These are some of the types of documentation products I created:
+      - &squarf; Web API, native API, and CLI references and user guides
+      - &squarf; Tutorials and cookbooks
+      - &squarf; Hardware reference guides and technical notes
+      - &squarf; Software design and methodology specifications
+      - &squarf; Various tool and technology user guides
+
+      Where code examples are shown in the docs, I wrote and tested original code using the target programming or scripting language.
+
+      Feel free to browse the publications and reach out if you have any questions: gene@gh.works.
+  publication:
+    title: Publications
+    icon: fas fa-book
+    format:
+      - title
+      - tool
+      - summary
+    types:
+      - Serverless document database documentation set
+      - Application Framework
+      - Visualization API
+      - IT Operations Management excerpts
+      - Developer Guides
+      - Single-board computer and I/O module hardware reference manuals
+      - Distributed energy industry standards specifications, test plan, and validation tool
+    list:
+      - title: >-
+          Fauna Docs
+        tool: "(AsciiDoc / Antora) "
+        summary: "I was responsible for the information architecture, content, CI/CD workflow, docs-as-code methodology and tools, docs testing, and Markdown and GitHub style guides."
+        url: "https://deploy-preview-1622--fauna-docs.netlify.app/fauna/current/"
+        type: Serverless document database documentation set
+      - title: >-
+          Splunk Application Framework Getting Started
+        tool: "(Confluence wiki)"
+        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        url: "https://docs.splunk.com/Documentation/Splunk/7.3.3/Module/Environmentsetup"
+        type: Application Framework
+      - title: >-
+          Splunk Application Framework Cookbook
+        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        tool: "(Confluence wiki)"
+        url: "http://docs.splunk.com/Documentation/Splunk/7.3.3/Module/Getthetutorialapp"
+        type: Application Framework
+      - title: >-
+          Splunk REST API Reference
+        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        tool: "(Confluence wiki)"
+        url: "https://docs.splunk.com/Documentation/Splunk/8.0.0/RESTREF/RESTprolog"
+        type: Application Framework
+      - title: >-
+          OmniSci Vega User Guide
+        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        tool: "(reStructuredText / Sphinx)"
+        url: "https://docs.heavy.ai/apis-and-interfaces/vega"
+        type: Visualization API
+      - title: >-
+          OmniSci Vega Native API Reference
+        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        tool: "(reStructuredText / Sphinx)"
+        url: "https://docs.heavy.ai/apis-and-interfaces/vega/vega-reference-overview"
+        type: Visualization API
+      - title: >-
+          OpsRamp Getting Started
+        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        tool: "(Markdown / Hugo)"
+        url: "https://docs.opsramp.com/guides/getting-started/"
+        type: IT Operations Management excerpts
+      - title: >-
+          OpsRamp Query Language Quick Start
+        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        tool: "(Markdown / Hugo)"
+        url: "Query Language Quick Start"
+        type: IT Operations Management excerpts
+      - title: >-
+          OpsRamp Query Language Quick Reference
+        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        tool: "(Markdown / Hugo)"
+        url: "Query Language Quick Reference"
+        type: IT Operations Management excerpts
+      - title: >-
+          Juniper Networks WAN SDN Controller Developer Guide
+        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        tool: ""
+        url: "https://www.juniper.net/documentation/us/en/software/northstar6.2.6/api-ref/api-ref-northstar-devguide.html"
+        type: Developer Guides
+      - title: >-
+          Ion Torrent Programming Guide with REST API Reference
+        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        tool: ""
+        url: "https://ion-torrent-sdk.readthedocs.io/en/stable/"
+        type: Developer Guides
+      - title: >-
+          Single-board computer with Integrated Data Acquisition and Configurable CPU
+        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        tool: "(LibreOffice/XSLT)"
+        url: "https://www.diamondsystems.com/files/binaries/Neptune%20User%20Manual.pdf"
+        type: Single-board computer and I/O module hardware reference manuals
+      - title: >-
+          High Integration Single-board computer with Ethernet and Data Acquisition
+        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        tool: "(LibreOffice/XSLT)"
+        url: "https://www.diamondsystems.com/files/binaries/Athena%20II%20User%20Manual.pdf"
+        type: Single-board computer and I/O module hardware reference manuals
+      - title: >-
+          Board with dual CAN ports, carrier for wireless and GPS modules
+        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        tool: "(LibreOffice/XSLT)"
+        url: "https://www.diamondsystems.com/files/binaries/JanusMMUserManual.pdf"
+        type: Single-board computer and I/O module hardware reference manuals
+      - title: >-
+          SunSpec Device Information Model Specification
+        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        tool: "(Microsoft Word)"
+        url: "https://sunspec.org/wp-content/uploads/2022/05/SunSpec-Device-Information-Model-Specificiation-V1-1-final.pdf"
+        type: Distributed energy industry standards specifications, test plan, and validation tool
+      - title: >-
+          SunSpec DER Information Model Specification
+        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        tool: "(Microsoft Word)"
+        url: "https://sunspec.org/wp-content/uploads/2021/02/SunSpec-DER-Information-Model-Specification-V1-0-02-01-2021.pdf"
+        type: Distributed energy industry standards specifications, test plan, and validation tool
+      - title: >-
+          SunSpec Conformance Test Procedures
+        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        tool: "(Microsoft Word)"
+        url: "https://sunspec.org/wp-content/uploads/2018/05/SunSpecCSIPConformanceTestProceduresV1.0.pdf"
+        type: Distributed energy industry standards specifications, test plan, and validation tool
+      - title: >-
+          SunSpec System Validation Platform
+        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        tool: "(reStructuredText / Sphinx)"
+        url: "http://sunspec.org/wp-content/uploads/2015/07/SunSpec-Validation-Platform-UG-Draft-3.pdf"
+        type: Distributed energy industry standards specifications, test plan, and validation tool
+  education:
+    title: Blog example
+    icon: fas fa-pen-fancy
+    list:
+      - title: Vega makes visualizing BIG data easy
+        url: "https://www.heavy.ai/blog/vega-makes-visualizing-big-data-easy"
+        description: Reached number three on the front page of Hacker News.
+  project:
+    title: Projects
+    icon: fas fa-project-diagram
+    list:
+      - title: Static site generator in Go that supports reStructuredText
+        url: "https://github.com/ghartsel/DoreStaticSiteGenerator"
+        description: Description of the project.
+      - title: Sample output of the Go static site
+        url: "https://ghartsel.github.io/demoyard/"
+        description: Description of the project.
+      - title: WYSIWYG LibreOffice frontend for creating Markdown or reStructuredText content
+        url: "https://github.com/ghartsel/RapidMarkup"
+        description: The tool uses XSLT to convert ODF XML to the target markup language.
+      - title: Microcontroller kernel SDK documentation source
+        url: "https://github.com/ghartsel/GX-Kernel"
+        description: Description of the project.
+      - title: Sample microcontroller kernel developer guide
+        url: "http://gxkernel.s3-website-us-west-1.amazonaws.com/index.html"
+        description:  I designed and implemented the kernel in C and assembly language.

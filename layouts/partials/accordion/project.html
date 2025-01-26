@@ -1,0 +1,8 @@
+{{ range.Site.Params.project.list }}
+<h4>
+  <a href="{{ .url }}">{{- .title -}}</a>
+</h4>
+<p style="display:inline-block;margin:0em 0em 1em 2em;">
+{{- .description | markdownify -}}
+</p>
+{{ end }}

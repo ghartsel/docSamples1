@@ -1,0 +1,13 @@
+theme source: https://github.com/darshanbaral/aafu
+
+install & run:
+
+    git clone https://github.com/darshanbaral/aafu.git
+    cd aafu
+    npm install
+    hugo server
+
+publish:
+
+    hugo
+    npx -y pagefind --site public
