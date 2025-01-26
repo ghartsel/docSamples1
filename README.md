@@ -7,7 +7,7 @@ This repo implements the UI for an index to documentation samples, including onl
 ## Features
 
 - Uses the Hugo static site generator with the [aafu](https://themes.gohugo.io/themes/aafu/) theme.
-- Deployed on Cloudflare Pages. (Future PDF objects to be deployed on Cloudflare R2.)
+- Deployed on Cloudflare Pages on ``git push``. (Future PDF objects to be deployed on Cloudflare R2.)
 
 ## Repository Content
 
