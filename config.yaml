@@ -66,7 +66,7 @@ params:
       - Visualization API
       - IT Operations Management excerpts
       - Developer Guides
-      - Single-board computer and I/O module hardware reference manuals
+      - Hardware reference manuals
       - Distributed energy industry standards specifications, test plan, and validation tool
     list:
       - title: >-
@@ -156,6 +156,15 @@ params:
         url: "https://ion-torrent-sdk.readthedocs.io/en/stable/"
         type: Developer Guides
       - title: >-
+          Configuration and programming software (CAPS) tool for STR9 families
+        summary:
+          I worked with hardware engineers to document the UI for the STMicroelectronics STR9 configuration
+          tool, assisting in debugging the tool. My previous experience writing board support packages, device drivers,
+          and operating systems proved valuable in producing complete and accurate documentation.
+        tool: "(FrameMaker)"
+        url: "https://www.st.com/resource/en/user_manual/um0225-configuration-and-programming-software-caps-tool-for-str9-families-stmicroelectronics.pdf"
+        type: Hardware reference manuals
+      - title: >-
           Single-board computer with Integrated Data Acquisition and Configurable CPU
         summary:
           One of several hardware modules I documented, I provided a detailed reference for how to configure and use this
@@ -164,21 +173,21 @@ params:
           which sought alignment with the Darwin Information Typing Architecture (DITA), at STC Silicon Valley.
         tool: "(LibreOffice/XSLT)"
         url: "https://www.diamondsystems.com/files/binaries/Neptune%20User%20Manual.pdf"
-        type: Single-board computer and I/O module hardware reference manuals
+        type: Hardware reference manuals
       - title: >-
           High Integration Single-board computer with Ethernet and Data Acquisition
         summary:
           Another hardware reference manual that describes how to configure and use an Ethernet and data acquisition SBC.
         tool: "(LibreOffice/XSLT)"
         url: "https://www.diamondsystems.com/files/binaries/Athena%20II%20User%20Manual.pdf"
-        type: Single-board computer and I/O module hardware reference manuals
+        type: Hardware reference manuals
       - title: >-
           Board with dual CAN ports, carrier for wireless and GPS modules
         summary:
           Yet another hardware reference manual that describes how to configure a board featuring carrier and wireless GPS.
         tool: "(LibreOffice/XSLT)"
         url: "https://www.diamondsystems.com/files/binaries/JanusMMUserManual.pdf"
-        type: Single-board computer and I/O module hardware reference manuals
+        type: Hardware reference manuals
       - title: >-
           SunSpec Device Information Model Specification
         summary:
@@ -222,7 +231,7 @@ params:
     list:
       - title: Vega makes visualizing BIG data easy
         url: "https://www.heavy.ai/blog/vega-makes-visualizing-big-data-easy"
-        description: Wrote this blog post to support marketing of the OmniSci SQL interface to the Vega visualization library. The post reached number three on the front page of Hacker News.
+        description: I wrote this marketing blog post to feature the OmniSci SQL interface to the Vega visualization library. The post reached number three on the front page of Hacker News.
   project:
     title: Projects
     icon: fas fa-project-diagram
