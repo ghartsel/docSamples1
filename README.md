@@ -1,5 +1,3 @@
-Sample documentation site powered by Hugo and deployed on Cloudflare.
-
 # Welcome to the *documentation samples*
 
 This repo implements the UI for an index to documentation samples, including online publications, blog posts, and personal projects.
