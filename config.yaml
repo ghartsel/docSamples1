@@ -61,7 +61,7 @@ params:
       - tool
       - summary
     types:
-      - Serverless document database documentation set
+      - Serverless document database
       - Application Framework
       - Visualization API
       - IT Operations Management excerpts
@@ -72,108 +72,147 @@ params:
       - title: >-
           Fauna Docs
         tool: "(AsciiDoc / Antora) "
-        summary: "I was responsible for the information architecture, content, CI/CD workflow, docs-as-code methodology and tools, docs testing, and Markdown and GitHub style guides."
+        summary:
+          As the lone tech writer, I was responsible for the
+          information architecture, content, CI/CD workflow, docs-as-code process, and Markdown and GitHub style guides.
+          I implemented processes and tooling to ensure high documentation quality.
         url: "https://deploy-preview-1622--fauna-docs.netlify.app/fauna/current/"
-        type: Serverless document database documentation set
+        type: Serverless document database
       - title: >-
           Splunk Application Framework Getting Started
         tool: "(Confluence wiki)"
-        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        summary:
+          My initial task was to provide reliable, clear, and accurate documentation for developers creating Splunk
+          applications. This tutorial provided a quick introduction to building a Splunk application.
         url: "https://docs.splunk.com/Documentation/Splunk/7.3.3/Module/Environmentsetup"
         type: Application Framework
       - title: >-
           Splunk Application Framework Cookbook
-        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        summary:
+          The cookbook was at the heart of the documentation initiative to facilitate onboarding developers for creating Splunk
+          applications. The cookbook provided a set of graduated, hands-on tutorials that gradually introduced developers
+          to increasingly complex Splunk features.
         tool: "(Confluence wiki)"
         url: "http://docs.splunk.com/Documentation/Splunk/7.3.3/Module/Getthetutorialapp"
         type: Application Framework
       - title: >-
           Splunk REST API Reference
-        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        summary:
+          In volunteering to take responsibility for the REST API, I defined a developer-friendly API documentation format
+          and replaced the existing automated documentation generation tool. OpenAPI was not an option.
         tool: "(Confluence wiki)"
         url: "https://docs.splunk.com/Documentation/Splunk/8.0.0/RESTREF/RESTprolog"
         type: Application Framework
       - title: >-
           OmniSci Vega User Guide
-        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        summary:
+          As one of several areas I documented for the GPU-based SQL database, I documented the OmniSci interface to the Vega
+          data visualization library, integrating the Vega language with SQL. The documentation opens with an at-a-glance
+          tutorial to provide context followed by a set of tutorials of increasing complexity that walk the developer through
+          OmniSci and Vega features.
         tool: "(reStructuredText / Sphinx)"
         url: "https://docs.heavy.ai/apis-and-interfaces/vega"
         type: Visualization API
       - title: >-
           OmniSci Vega Native API Reference
-        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        summary:
+          The Vega API reference provides the syntactic details for using the Vega visualization language with OmniSci SQL.
         tool: "(reStructuredText / Sphinx)"
         url: "https://docs.heavy.ai/apis-and-interfaces/vega/vega-reference-overview"
         type: Visualization API
       - title: >-
           OpsRamp Getting Started
-        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        summary:
+          As the documentation manager leading an international team of tech writers, I created content in addition to defining
+          the docs-as-code process, maintaining documentation tools, and reviewing and editing the content of other writers.
+          This document improved the onboarding experience using the UI to log in, set up clients and agents as monitors, view
+          dashboard visualizations, and handle alerts.
         tool: "(Markdown / Hugo)"
         url: "https://docs.opsramp.com/guides/getting-started/"
         type: IT Operations Management excerpts
       - title: >-
-          OpsRamp Query Language Quick Start
-        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
-        tool: "(Markdown / Hugo)"
-        url: "Query Language Quick Start"
-        type: IT Operations Management excerpts
-      - title: >-
           OpsRamp Query Language Quick Reference
-        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        summary:
+          This document provided an easy-to-read description of how to use the new query language feature for monitoring resources.
         tool: "(Markdown / Hugo)"
-        url: "Query Language Quick Reference"
+        url: "https://docs.opsramp.com/platform-features/feature-guides/adv-query-language/advanced-query-language-ref/"
         type: IT Operations Management excerpts
       - title: >-
           Juniper Networks WAN SDN Controller Developer Guide
-        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        summary:
+          As a consultant, I wrote the developer guide for the Juniper Networks NorthStar WAN SDN Controller to describe
+          how to create applications that provided visibility and control over IP/MPLS and optical layer flows for WAN
+          analysis and optimization, using the REST API.
         tool: ""
         url: "https://www.juniper.net/documentation/us/en/software/northstar6.2.6/api-ref/api-ref-northstar-devguide.html"
         type: Developer Guides
       - title: >-
           Ion Torrent Programming Guide with REST API Reference
-        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        summary:
+          As a consultant, I provided the first documentation for the Ion Torrent DNA sequencing machine. The documentation
+          included a programming guide and REST API reference documentation. Pre-OpenAPI, I created a Python tool to traverse
+          resources and autogenerate the REST API. I would later employ a similar mechanism at Splunk.
         tool: ""
         url: "https://ion-torrent-sdk.readthedocs.io/en/stable/"
         type: Developer Guides
       - title: >-
           Single-board computer with Integrated Data Acquisition and Configurable CPU
-        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        summary:
+          One of several hardware modules I documented, I provided a detailed reference for how to configure and use this
+          single-board computer. For all documentation, I created an XSLT-based documentation tool that allowed WYSIWYG
+          authoring by publishing OpenOffice ODF formatted files to HTML and PDF formats. I presented the tool and methodology,
+          which sought alignment with the Darwin Information Typing Architecture (DITA), at STC Silicon Valley.
         tool: "(LibreOffice/XSLT)"
         url: "https://www.diamondsystems.com/files/binaries/Neptune%20User%20Manual.pdf"
         type: Single-board computer and I/O module hardware reference manuals
       - title: >-
           High Integration Single-board computer with Ethernet and Data Acquisition
-        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        summary:
+          Another hardware reference manual that describes how to configure and use an Ethernet and data acquisition SBC.
         tool: "(LibreOffice/XSLT)"
         url: "https://www.diamondsystems.com/files/binaries/Athena%20II%20User%20Manual.pdf"
         type: Single-board computer and I/O module hardware reference manuals
       - title: >-
           Board with dual CAN ports, carrier for wireless and GPS modules
-        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        summary:
+          Yet another hardware reference manual that describes how to configure a board featuring carrier and wireless GPS.
         tool: "(LibreOffice/XSLT)"
         url: "https://www.diamondsystems.com/files/binaries/JanusMMUserManual.pdf"
         type: Single-board computer and I/O module hardware reference manuals
       - title: >-
           SunSpec Device Information Model Specification
-        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        summary:
+          Part of the SunSpec Modbus open standard referenced in IEEE 1547-2018 that enables interoperability among
+          Distributed Energy Resource (DER) components. This document specifies a standard mechanism for defining data sets
+          supported by a DER-compliant device. I participated in the document design, authoring, review, and standardization
+          process.
         tool: "(Microsoft Word)"
         url: "https://sunspec.org/wp-content/uploads/2022/05/SunSpec-Device-Information-Model-Specificiation-V1-1-final.pdf"
         type: Distributed energy industry standards specifications, test plan, and validation tool
       - title: >-
           SunSpec DER Information Model Specification
-        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        summary:
+          Part of the SunSpec Modbus open standard referenced in IEEE 1547-2018 that enables interoperability among
+          Distributed Energy Resource (DER) components. This document specifies the information model for DER-compliant devices.
+          I participated in the document design, authoring, review, and standardization process.
         tool: "(Microsoft Word)"
         url: "https://sunspec.org/wp-content/uploads/2021/02/SunSpec-DER-Information-Model-Specification-V1-0-02-01-2021.pdf"
         type: Distributed energy industry standards specifications, test plan, and validation tool
       - title: >-
           SunSpec Conformance Test Procedures
-        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        summary:
+          This document specifies test procedures for validating conformance to Common Smart Inverter Profile (CSIP)
+          requirements for server and client DER devices. I participated in the document design, authoring, review, and
+          standardization process, working with partner companies to validate the test plan use cases.
         tool: "(Microsoft Word)"
         url: "https://sunspec.org/wp-content/uploads/2018/05/SunSpecCSIPConformanceTestProceduresV1.0.pdf"
         type: Distributed energy industry standards specifications, test plan, and validation tool
       - title: >-
           SunSpec System Validation Platform
-        summary: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+        summary:
+          I documented the System Validation Platform (SVP) tool used to design, test, and validate SunSpec-compliant
+          devices, while also providing quality assurance. Documentation was created using Sphinx and ported to the
+          Flask framework for in-app documentation.
         tool: "(reStructuredText / Sphinx)"
         url: "http://sunspec.org/wp-content/uploads/2015/07/SunSpec-Validation-Platform-UG-Draft-3.pdf"
         type: Distributed energy industry standards specifications, test plan, and validation tool
@@ -183,23 +222,23 @@ params:
     list:
       - title: Vega makes visualizing BIG data easy
         url: "https://www.heavy.ai/blog/vega-makes-visualizing-big-data-easy"
-        description: Reached number three on the front page of Hacker News.
+        description: Wrote this blog post to support marketing of the OmniSci SQL interface to the Vega visualization library. The post reached number three on the front page of Hacker News.
   project:
     title: Projects
     icon: fas fa-project-diagram
     list:
       - title: Static site generator in Go that supports reStructuredText
         url: "https://github.com/ghartsel/DoreStaticSiteGenerator"
-        description: This is a Cloudflare test.
+        description: I implemented this static site generator in Go. It's inspired by the efficiency of Hugo and implements Sphinx paradigms to promote a documentation-centric authoring environment.
       - title: Sample output of the Go static site
         url: "https://ghartsel.github.io/demoyard/"
-        description: Description of the project.
+        description: This is an example of the output produced by the above Go static site generator.
       - title: WYSIWYG LibreOffice frontend for creating Markdown or reStructuredText content
         url: "https://github.com/ghartsel/RapidMarkup"
-        description: The tool uses XSLT to convert ODF XML to the target markup language.
-      - title: Microcontroller kernel SDK documentation source
-        url: "https://github.com/ghartsel/GX-Kernel"
-        description: Description of the project.
+        description: This Python documentation tool uses an XSLT specification to convert ODF XML to Markdown or reStructuredText, enabling a writer-friendly, WYSIWYG authoring environment.
       - title: Sample microcontroller kernel developer guide
         url: "http://gxkernel.s3-website-us-west-1.amazonaws.com/index.html"
-        description:  I designed and implemented the kernel in C and assembly language.
+        description: This example demonstrates a 3-panel Hugo theme for showing examples in parallel with the documentation, which is popular for developer reference documentation. The content describes a kernel that I designed and implemented, which was written in C and assembly language.
+      - title: Microcontroller kernel SDK documentation source
+        url: "https://github.com/ghartsel/GX-Kernel"
+        description: This is the Hugo static site source for the above 3-panel kernel documentation.
