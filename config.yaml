@@ -190,7 +190,7 @@ params:
     list:
       - title: Static site generator in Go that supports reStructuredText
         url: "https://github.com/ghartsel/DoreStaticSiteGenerator"
-        description: Description of the project.
+        description: This is a Cloudflare test.
       - title: Sample output of the Go static site
         url: "https://ghartsel.github.io/demoyard/"
         description: Description of the project.
