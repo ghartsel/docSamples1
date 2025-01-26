@@ -9,5 +9,5 @@ This repo implements the UI for an index to documentation samples, including onl
 
 ## Repository Content
 
-- Given the aafu theme, the index structure is defined in the config.yaml file.
-- Supporting index entry formats are defined in modified /layouts/partials/accordion partials files.
+- Given the aafu theme, the index elements is defined in the config.yaml file.
+- Supporting index element formats are defined in modified /layouts/partials/accordion partials files.
