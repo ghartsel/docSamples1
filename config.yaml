@@ -67,7 +67,6 @@ params:
       - IT Operations Management excerpts
       - Developer Guides
       - Hardware reference manuals
-      - Distributed energy industry standards specifications, test plan, and validation tool
     list:
       - title: >-
           Fauna Docs
@@ -188,43 +187,6 @@ params:
         tool: "(LibreOffice/XSLT)"
         url: "https://www.diamondsystems.com/files/binaries/JanusMMUserManual.pdf"
         type: Hardware reference manuals
-      - title: >-
-          SunSpec Device Information Model Specification
-        summary:
-          Part of the SunSpec Modbus open standard referenced in IEEE 1547-2018 that enables interoperability among
-          Distributed Energy Resource (DER) components. This document specifies a standard mechanism for defining data sets
-          supported by a DER-compliant device. I participated in the document design, authoring, review, and standardization
-          process.
-        tool: "(Microsoft Word)"
-        url: "https://sunspec.org/wp-content/uploads/2022/05/SunSpec-Device-Information-Model-Specificiation-V1-1-final.pdf"
-        type: Distributed energy industry standards specifications, test plan, and validation tool
-      - title: >-
-          SunSpec DER Information Model Specification
-        summary:
-          Part of the SunSpec Modbus open standard referenced in IEEE 1547-2018 that enables interoperability among
-          Distributed Energy Resource (DER) components. This document specifies the information model for DER-compliant devices.
-          I participated in the document design, authoring, review, and standardization process.
-        tool: "(Microsoft Word)"
-        url: "https://sunspec.org/wp-content/uploads/2021/02/SunSpec-DER-Information-Model-Specification-V1-0-02-01-2021.pdf"
-        type: Distributed energy industry standards specifications, test plan, and validation tool
-      - title: >-
-          SunSpec Conformance Test Procedures
-        summary:
-          This document specifies test procedures for validating conformance to Common Smart Inverter Profile (CSIP)
-          requirements for server and client DER devices. I participated in the document design, authoring, review, and
-          standardization process, working with partner companies to validate the test plan use cases.
-        tool: "(Microsoft Word)"
-        url: "https://sunspec.org/wp-content/uploads/2018/05/SunSpecCSIPConformanceTestProceduresV1.0.pdf"
-        type: Distributed energy industry standards specifications, test plan, and validation tool
-      - title: >-
-          SunSpec System Validation Platform
-        summary:
-          I documented the System Validation Platform (SVP) tool used to design, test, and validate SunSpec-compliant
-          devices, while also providing quality assurance. Documentation was created using Sphinx and ported to the
-          Flask framework for in-app documentation.
-        tool: "(reStructuredText / Sphinx)"
-        url: "http://sunspec.org/wp-content/uploads/2015/07/SunSpec-Validation-Platform-UG-Draft-3.pdf"
-        type: Distributed energy industry standards specifications, test plan, and validation tool
   education:
     title: Blog example
     icon: fas fa-pen-fancy
