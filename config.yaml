@@ -120,6 +120,13 @@ params:
         url: "https://docs.heavy.ai/apis-and-interfaces/vega/vega-reference-overview"
         type: Visualization API
       - title: >-
+          OmniSci Roles and Privileges
+        summary:
+          The Roles and Privileges reference of the security section of the SQL database documentation.
+        tool: "(reStructuredText / Sphinx)"
+        url: "https://docs.heavy.ai/installation-and-configuration/security/roles"
+        type: Visualization API
+      - title: >-
           OpsRamp Getting Started
         summary:
           As the documentation manager leading an international team of tech writers, I created content in addition to defining
