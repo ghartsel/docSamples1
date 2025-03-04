@@ -127,23 +127,6 @@ params:
         url: "https://docs.heavy.ai/installation-and-configuration/security/roles"
         type: Visualization API
       - title: >-
-          OpsRamp Getting Started
-        summary:
-          As the documentation manager leading an international team of tech writers, I created content in addition to defining
-          the docs-as-code process, maintaining documentation tools, and reviewing and editing the content of other writers.
-          This document improved the onboarding experience using the UI to log in, set up clients and agents as monitors, view
-          dashboard visualizations, and handle alerts.
-        tool: "(Markdown / Hugo)"
-        url: "https://docs.opsramp.com/guides/getting-started/"
-        type: IT Operations Management excerpts
-      - title: >-
-          OpsRamp Query Language Quick Reference
-        summary:
-          This document provided an easy-to-read description of how to use the new query language feature for monitoring resources.
-        tool: "(Markdown / Hugo)"
-        url: "https://docs.opsramp.com/platform-features/feature-guides/adv-query-language/advanced-query-language-ref/"
-        type: IT Operations Management excerpts
-      - title: >-
           Juniper Networks WAN SDN Controller Developer Guide
         summary:
           As a consultant, I wrote the developer guide for the Juniper Networks NorthStar WAN SDN Controller to describe
