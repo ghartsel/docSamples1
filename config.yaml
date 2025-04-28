@@ -75,7 +75,7 @@ params:
           As the lone tech writer, I was responsible for the
           information architecture, content, CI/CD workflow, docs-as-code process, and Markdown and GitHub style guides.
           I implemented processes and tooling to ensure high documentation quality.
-        url: "https://deploy-preview-1622--fauna-docs.netlify.app/fauna/current/"
+        url: "http://fdocsample.s3-website-us-west-1.amazonaws.com/fauna/current/index.html"
         type: Serverless document database
       - title: >-
           Splunk Application Framework Getting Started
