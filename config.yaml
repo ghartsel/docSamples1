@@ -59,7 +59,7 @@ params:
       - Serverless document database
       - Application Framework
       - Visualization API
-      - IT Operations Management excerpts
+      - Process Definition and Observability
       - Developer Guides
       - Hardware reference manuals
     list:
@@ -117,10 +117,27 @@ params:
       - title: >-
           OmniSci Roles and Privileges
         summary:
-          The Roles and Privileges reference of the security section of the SQL database documentation.
+          The security section Roles and Privileges reference of the SQL database documentation.
         tool: "(reStructuredText / Sphinx)"
         url: "https://docs.heavy.ai/installation-and-configuration/security/roles"
         type: Visualization API
+      - title: >-
+          Process Definition
+        summary:
+          As the documentation manager leading an international team of tech writers, I defined
+          the docs-as-code process, created and maintained documentation tools, and reviewed and edited the content of other writers,
+          while continuing to produce original content such as these examples.
+          This document and subsections describe the implementation of a process definition mechanism, based on Camunda, for automating event handling.
+        tool: "(Markdown / Hugo)"
+        url: "https://docs.opsramp.com/solutions/remediation-automation/process-automation/process-definitions/"
+        type: Process Definition and Observability
+      - title: >-
+          Dashboard 2.0
+        summary:
+          This document and subsections show how to create dashboard visualizations, including Prometheus integration using PromQL.
+        tool: "(Markdown / Hugo)"
+        url: "https://docs.opsramp.com/platform-features/feature-guides/dashboards/dashboard20/"
+        type: Process Definition and Observability
       - title: >-
           Juniper Networks WAN SDN Controller Developer Guide
         summary:
