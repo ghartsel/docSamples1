@@ -189,13 +189,6 @@ params:
         tool: "(LibreOffice/XSLT)"
         url: "https://www.diamondsystems.com/files/binaries/JanusMMUserManual.pdf"
         type: Hardware reference manuals
-  education:
-    title: Blog example
-    icon: fas fa-pen-fancy
-    list:
-      - title: Vega makes visualizing BIG data easy
-        url: "https://www.heavy.ai/blog/vega-makes-visualizing-big-data-easy"
-        description: I wrote this marketing blog post to feature the OmniSci SQL interface to the Vega visualization library. The post reached number three on the front page of Hacker News.
   project:
     title: Projects
     icon: fas fa-project-diagram
