@@ -115,13 +115,6 @@ params:
         url: "https://docs.heavy.ai/apis-and-interfaces/vega/vega-reference-overview"
         type: Visualization API
       - title: >-
-          OmniSci Roles and Privileges
-        summary:
-          The security section Roles and Privileges reference of the SQL database documentation.
-        tool: "(reStructuredText / Sphinx)"
-        url: "https://docs.heavy.ai/installation-and-configuration/security/roles"
-        type: Visualization API
-      - title: >-
           Process Definition
         summary:
           As the documentation manager leading an international team of tech writers, I defined
@@ -138,6 +131,16 @@ params:
         tool: "(Markdown / Hugo)"
         url: "https://docs.opsramp.com/platform-features/feature-guides/dashboards/dashboard20/"
         type: Process Definition and Observability
+      - title: >-
+          Configure Determined with Prometheus and Grafana
+        summary:
+          This document describes the setup and configuration to enable a Grafana dashboard to monitor Determined hardware
+          and system metrics on a cloud cluster, such as AWS or Kubernetes. For the Determined AI distributed training
+          product, I worked closely with the ML engineer to document how to integrate Prometheus and Grafana with
+          Determined AI. I defined the topic structure, enforced documentation style guidelines, and verified content accuracy.
+        tool: "(reStructuredText / Sphinx)"
+        url: "https://dancing-taiyaki-b94c7f.netlify.app/integrations/prometheus/prometheus"
+        type: Developer Guides
       - title: >-
           Juniper Networks WAN SDN Controller Developer Guide
         summary:
